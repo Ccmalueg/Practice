@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
     <title>Practice site</title>
-    <link rel="stylesheet" href="/Practice/Css/style.css">
+    <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
     <div class="container"> 
@@ -86,12 +86,12 @@
         var exit = document.getElementById('exit');
         
     menu.addEventListener('click', function(e) {
-        nav.classlist.toggle('hide-mobile');
+        nav.classList.toggle('hide-mobile');
         e.preventDefault();
     });
 
     exit.addEventListener('click', function(e) {
-        nav.classlist.add('hide-mobile');
+        nav.classList.add('hide-mobile');
         e.preventDefault();
     });
 
